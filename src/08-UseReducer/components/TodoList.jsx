@@ -16,7 +16,7 @@ export const TodoList = ({ todos, onDeleteTodo, onToggleTodo }) => {
 };
 
 TodoList.propTypes = {
-  todos: PropTypes.array.isRequired,
-  onDeleteTodo: PropTypes.func.isRequired,
-  onToggleTodo: PropTypes.func.isRequired,
+  todos: PropTypes.array,
+  onDeleteTodo: PropTypes.func,
+  onToggleTodo: PropTypes.func,
 };
